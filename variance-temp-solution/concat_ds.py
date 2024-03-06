@@ -2,7 +2,6 @@ import click
 import json
 import pathlib
 import textgrid
-import tqdm
 
 @click.command(help='Concatenate sengmented DS files')
 @click.argument('ds_dir', metavar='DS_DIR')
